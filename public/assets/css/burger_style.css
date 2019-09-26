@@ -1,0 +1,67 @@
+.centering-agent {
+    width: 960px;
+    height: 900px;
+    background: grey;
+    margin: auto;
+}
+
+.img {
+    width: 200px;
+    margin: auto;
+}
+
+.together-in-the-middle {
+    float: left;
+    background: blue;
+    width: 50%;
+}
+
+.input {
+    clear: both;
+    width: 100%;
+    background: green;
+    height: 50px;
+}
+
+.center {
+    display: block;
+    clear: both;
+    margin: auto;
+    text-align: center
+}
+
+
+.button {
+    background-color: #0e3d5a;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.burger-button {
+    background-color: #0e3d5a;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.burger {
+    display: inline;
+    color: white;
+    padding: 20px 34px;
+    font-size: 20px;
+    background: grey;
+}

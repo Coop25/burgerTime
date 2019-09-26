@@ -11,11 +11,16 @@ const db = require("./models");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+let expressHandlebars = require("express-handlebars");
+
+app.engine("handlebars", expressHandlebars({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+
 //Static directory
 app.use(express.static("public"));
 
 //import routes
-const routes = require("./controllers")
+const routes = require("./controllers/burgers_controller.js")
 app.use(routes);
 
 //Sync sequelize models and then starting our Express app
