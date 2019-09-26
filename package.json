@@ -1,0 +1,19 @@
+{
+  "name": "burgertime",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coop25/burgerTime.git"
+  },
+  "author": "Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coop25/burgerTime/issues"
+  },
+  "homepage": "https://github.com/Coop25/burgerTime#readme"
+}
