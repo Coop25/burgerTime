@@ -91,5 +91,12 @@ body {
 }
 
 #textArea {
-    font-size: 20px
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.titleText {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
 }
